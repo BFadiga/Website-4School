@@ -1,15 +1,20 @@
-img{
-    width: 15%;
-
-}body{
-    color: crimson;
+*{
+    box-sizing: border-box;
+    padding: 0;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+img{
+    width: 11%;
+
+}body{
+    color: crimson;
+}
+
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     word-spacing: -5px;
     letter-spacing: 0px;
@@ -20,6 +25,50 @@ ol, li{
     list-style: upper-roman;
     list-style-position: inside;
     list-style-image: ;
-    line-height: 80px;
+    line-height: 0px
 }
 
+/* Divisão entre as listas. */
+div{
+    margin: 80px 60px 100px;
+}
+
+div h2{
+    font-size: 40px;
+    margin: 20px 30px 0;
+    color: #fff;
+}
+
+.div1{
+    background-image: linear-gradient(rgba(24, 24, 24, 0.42), rgba(0, 0, 0, 1)), url(../images/LethalCompanyBanner.png);
+    height: 400px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+div p{
+    margin: 30px 30px 40px;
+    width: 40%;
+}
+
+div a{
+    background-color: rgb(6, 231, 231);
+    border: 2px solid aqua;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+div a:hover{
+    background-color: transparent;
+    color: aqua;
+}
