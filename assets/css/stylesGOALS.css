@@ -4,15 +4,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img{
-    width: 11%;
-
-}body{
-    color: crimson;
+/* Formatação da área de cima do site, a borda foi de mamas */
+.logo{
+    background-color: #262626;
+    width: 100%;
+    height: 80%;
+    border: 30px solid #ed2939;
+    border: #ed2939;
+    margin: 0px;
+    color: #ed2939;
 }
 
-h1{
+.flogo{
+    width: 300px;
+    margin: 0px 0px 0px 25%;
+}
 
+
+.about{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: crimson;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1%;
+    left: 65%;
+}
+
+.about:hover{
+    background-color: rgb(219, 48, 82);
+}
+
+/* Título do "Our Goals" */
+body{
+    color: crimson;
+}
+.title{
     font-weight: 900;
     font-size: 40px;
     text-align: center;
@@ -21,6 +52,7 @@ h1{
     line-height: 89px;
 }
 
+/* Formatação da lista */
 ol, li{
     list-style: upper-roman;
     list-style-position: inside;
@@ -29,8 +61,8 @@ ol, li{
 }
 
 /* Divisão entre as listas. */
-div{
-    margin: 80px 60px 100px;
+.lista{
+    margin:80px 60px 60px;
 }
 
 div h2{
@@ -39,6 +71,7 @@ div h2{
     color: #fff;
 }
 
+/* Apenas para testar, deve ser removido no futuro */
 .div1{
     background-image: linear-gradient(rgba(24, 24, 24, 0.42), rgba(0, 0, 0, 1)), url(../images/LethalCompanyBanner.png);
     height: 400px;
@@ -57,7 +90,8 @@ div p{
     width: 40%;
 }
 
-div a{
+
+.LINKEST{
     background-color: rgb(6, 231, 231);
     border: 2px solid aqua;
     text-decoration: none;
@@ -68,7 +102,7 @@ div a{
     box-sizing: border-box;
 }
 
-div a:hover{
+.LINKEST:hover{
     background-color: transparent;
     color: aqua;
 }
