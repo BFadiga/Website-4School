@@ -1,14 +1,3 @@
-*{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: var(--bgcolor)
-}
-
-
 .ultimate{
     display: flex;
     flex-direction: column;
@@ -17,7 +6,6 @@
     margin: 0vh auto;
 }
 
-/* Formatação da área de cima do site, a borda foi de mamas */
 .header{
     background-color: var(--headercolor);
     height: 7.5vh;
@@ -49,7 +37,9 @@
     color: var(--textcolor);
 }
 
-#search:focus {outline:none;}
+#search:focus {
+    outline:none;
+}
 
 .searchbracket{
     background-color: transparent;
@@ -186,76 +176,90 @@ p{
     background-color: rgb(219, 48, 82);
 }
 
-/* Parte debaixo do site */
+
+/* Formulários de login */
 
 
-body{
-    min-height: 100vh;
+.main{
+    height: 82.5vh;
+    width: 100%;
+    /* background-color: aliceblue; */
     display: flex;
-    flex-direction: column;
-}
-
-.bottom{
-    margin-top: top;
-    width: 50vw;
-}
-
-.icons{
-    width: 4vw;
-    height: 5vh;
-    display: flex;
-    margin: 0px 75vw;
-}
-
-.icon{
-    font-size: 30px;
-    margin: 1.5vh 0px 0px 0px;
-    box-sizing: border-box;
-    color: #eff9d6;
-}
-
-.icon:hover{
-    color: crimson;
-}
-
-
-
-
-/* Mudanças na palavra "Trending" */
-.trendtext{
-    font-weight: 900;
-    word-spacing: 5px;
-    letter-spacing: 6px;
-    font-size: 32px;
-    color: #eff9d6;
-
-}
-
-.trending{
-    text-align: center;
-    margin: 25vh 0vh 3vh 0vh;
-}
-
-/* Formatação das imagens e da posição dos "Trendings". */
-.image2{
-    width: 250px;
-    height: 125px;
-    filter: opacity(75%) drop-shadow(14px 14px 5px #27274b);
-    border-radius: 50px;
-}
-
-.image2:hover{
-    filter: blur(0);
-}
-
-.LOGO{
-    width: 50vw;
-    margin: 0vh 0vw 40vh 24.5vw;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
+.registration{
+    background-color: var(--footercolor);
+    height: 50vh;
+    width: 55vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
 
+.welcome{
+    background-image: url(../images/Welcome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 60vw;
+    border-radius: 0px 10px 10px 0px;
+}
 
+.internalreg{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: var(--footercolor);
+}
+
+.internalreg h1{
+    color: var(--textcolor);
+    background-color: transparent;
+    text-align: center;
+    font-weight: 900;
+    margin: 9vh 0vw 5vh;
+}
+
+.internalreg p{
+    color: var(--textcolor);
+    background-color: transparent;
+    text-align: center;
+    font-weight: 500;
+    margin: 0vh 0vw 2.5vh;
+}
+
+.regcheck{
+    width: 22.5vw;
+    height: 4vh;
+    padding: 15px;
+    margin: 0vh 0vw 0.9vh;
+    border-radius: 10px;
+    background-color: var(--textcolor);
+    word-spacing: -2px;
+}
+
+.confirmbutton{
+    width: 22.5vw;
+    height: 4vh;
+    border-radius: 10px;
+    margin: 3vh;
+    background-color: var(--regcolor);
+    color: var(--textcolor);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.confirmbutton:hover{
+    background-color: var(--hovregcolor);
+}
+
+div{
+    background-color: transparent;
+}
 

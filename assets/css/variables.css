@@ -1,0 +1,17 @@
+*{
+    --bgcolor: #091828;
+    --textcolor: #ffffff;
+    --headercolor: #0a233d;
+    --logcolor: #091b2e;
+    --hovlogcolor: #16314e;
+    --regcolor: #3855fc;
+    --hovregcolor: #5971fd;
+    --header2color: #091b2e;
+    --searchcolor: #091829;
+    --footercolor: #0b2746;
+    background-color: var(--bgcolor);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}

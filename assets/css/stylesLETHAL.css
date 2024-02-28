@@ -3,12 +3,9 @@
     margin: 0;
     padding: 0;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--bgcolor);
 }
 
-
-.background{
-    background-color: #26282b;
-}
 
 .ultimate{
     display: table;

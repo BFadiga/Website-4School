@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: ;
+}
+
+.background{
+    background-color: black;
+}
+
+.ultimate{
+    padding: 0rem;
+    color: white;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 30vh 15vh 15vh 15vh 25vh;
+}
+
+.logo{
+    min-width: 50vw;
+    height: 5vh;
+    border: 30xp solid #ed2939;
+    border: #ed2939;
+    color: #ed2939;
+    display: flex;
+}
+
+p{
+    margin: auto;
+}
+
+.flogo{
+    width: 10vw;
+    margin: 0px 0px 0px 25vw;
+}
+
+
+.about{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: crimson;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.about:hover{
+    background-color: rgb(219, 48, 82);
+}
+
+
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-color: #333;
+    background-image: linear-gradient(to top, rgba(24, 24, 24, 8), rgba(0, 0, 0, 0.8)), url(../images/Like-a-Dragon-Infinite-Wealth---Horizontal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.inside{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-color: #666;
+    /* grid-area: inside; */
+}
+
+.lateral{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    background-color: #999;
+    /* grid-area: lateral; */
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-color: #333;
+    /* grid-area: footer; */
+    align-items: end;
+}
+
+.requirements{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: #666;
+    border-style: solid 30px crimson;
+}
+
+.platforms{
+    grid-column-start: 6;
+    grid-column-end: 6;
+}
+
+.blank{
+    grid-column-start: 6;
+    grid-column-end: 6;
+}
