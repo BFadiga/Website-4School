@@ -254,6 +254,9 @@ div{
     background-color: var(--headercolor);
 }
 
+.icon p{
+    margin: auto
+}
 
 ol, li{
     list-style: upper-roman;
